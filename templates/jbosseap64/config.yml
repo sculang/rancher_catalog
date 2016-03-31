@@ -1,0 +1,7 @@
+name: ATSJBOSSEAP64 
+description: standard ATS WEB JAVA service stack
+version: 0 
+category: JBOSS
+maintainer: ITSATSWEB team
+license: Corporate 
+projectURL: its_ats_web_services_catalog

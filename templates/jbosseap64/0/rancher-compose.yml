@@ -1,9 +1,9 @@
 .catalog
-  name: ATS_JBOSS_EAP_6.4 
+  name: ATSJBOSSEAP64 
   version: 0
   description: first test version
-  uuid: ATS_JBOSS_EAP_6.4_0 
-  minimum_rancher_version: 0
+  uuid: ATSJBOSSEAP64_0 
+  minimum_rancher_version: 1.0.0
   questions:
     - variable: env
       label: env_lbl
