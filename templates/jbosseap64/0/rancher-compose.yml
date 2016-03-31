@@ -1,14 +1,10 @@
-.catalog
-  name: ATSJBOSSEAP64 
-  version: 0
-  description: first test version
-  uuid: ATSJBOSSEAP64_0 
-  minimum_rancher_version: 1.0.0
+.catalog:
+  name: "ATSJBOSSEAP64" 
+  version: "v0.1"
+  description: "first test version"
   questions:
-    - variable: env
-      label: env_lbl
-      description: please select target environment type|
-      type: enum   
-      options: # List of options if using type of `enum`
-        - Option development
-        - Option production
+    - variable: "env_lbl"
+      label: "env_lbl"
+      required: true
+      description: "please enter jon server name"
+      type: "string"   
