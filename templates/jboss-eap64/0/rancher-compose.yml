@@ -1,0 +1,14 @@
+.catalog
+  name: ATS_JBOSS_EAP_6.4 
+  version: 0
+  description: first test version
+  uuid: ATS_JBOSS_EAP_6.4_0 
+  minimum_rancher_version: 0
+  questions:
+    - variable: env
+      label: env_lbl
+      description: please select target environment type|
+      type: enum   
+      options: # List of options if using type of `enum`
+        - Option development
+        - Option production
