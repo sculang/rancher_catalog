@@ -1,0 +1,7 @@
+name: # ATS JBOSS EAP 6.4 
+description: |# standard ATS WEB JAVA service stack
+version: # 0 
+category: # JBOSS
+maintainer: # ITS/ATS/WEB team
+license: # Corporate 
+projectURL: # http://its_ats_web_services_catalog/index.html
