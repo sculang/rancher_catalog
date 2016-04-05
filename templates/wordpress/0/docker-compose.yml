@@ -1,17 +1,17 @@
 wordpress:
   image: wordpress
   links:
-    - wordpress_db:mysql
+    - wordpressdb:mysql
   ports:
     - 8080:80
-wordpress_db:
+wordpressdb:
   image: mariadb
   environment:
     MYSQL_ROOT_PASSWORD: examplepass
 phpmyadmin:
   image: corbinu/docker-phpmyadmin
   links:
-    - wordpress_db:mysql
+    - wordpressdb:mysql
   ports:
     - 8181:80
   environment:
