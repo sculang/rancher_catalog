@@ -3,7 +3,7 @@ wordpress:
   links:
     - wordpressdb:mysql
   ports:
-    - 8080:80
+    - 8088:80
 wordpressdb:
   image: mariadb
   environment:
@@ -13,7 +13,7 @@ phpmyadmin:
   links:
     - wordpressdb:mysql
   ports:
-    - 8181:80
+    - 8189:80
   environment:
     MYSQL_USERNAME: root
     MYSQL_ROOT_PASSWORD: examplepass
